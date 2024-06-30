@@ -17,3 +17,7 @@ function openModal(pic) {
   wrapper.style.display = "flex";
   imgWrapper.src = pic;
 }
+
+window.addEventListener("click", (e) => {
+  e.target === wrapper ? (wrapper.style.display = "none") : false;
+});
