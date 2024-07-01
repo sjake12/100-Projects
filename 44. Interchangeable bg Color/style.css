@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(28, 28, 35);
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  border: 2px solid white;
+  width: 120px;
+  height: 100px;
+  margin: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.content-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.purple {
+  background-color: purple;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+.red {
+  background-color: red;
+}
+.teal {
+  background-color: teal;
+}
