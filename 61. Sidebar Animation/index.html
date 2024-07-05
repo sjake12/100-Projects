@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar Animation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">Contact Us</a></li>
+      </ul>
+
+      <button class="menu" id="menu">
+        <i class="fas fa-times"></i>
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    <div class="content" id="content">
+      <div class="container">
+        <h1>Register With Us</h1>
+        <form>
+          <label>Name <span class="special">*</span></label>
+          <input type="text" />
+          <label>Email <span class="special">*</span></label>
+          <input type="email" />
+          <label>Password <span class="special">*</span></label>
+          <input type="password" />
+          <label>Confirm Password <span class="special">*</span></label>
+          <input type="password" />
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
