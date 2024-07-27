@@ -36,6 +36,7 @@ ul {
 
 li a {
   color: #a4a4a4;
+  transition: all 0.15s ease;
 }
 
 li a:hover {
