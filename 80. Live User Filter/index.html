@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live User Filter</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h4 class="title">Search by name and/or location</h4>
+        <div class="input-container">
+          <input type="text" id="filter" placeholder="Search" />
+          <span class="clear-btn">&times;</span>
+        </div>
+      </header>
+
+      <ul id="result" class="user-list">
+        <li>
+          <h3>Loading...</h3>
+        </li>
+      </ul>
+    </div>
+
+    <div class="toggler-container">
+      <input type="checkbox" id="switch" />
+      <label for="switch"></label>
+    </div>
+  </body>
+</html>
