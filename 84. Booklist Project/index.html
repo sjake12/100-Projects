@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booklist</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="form-container">
+      <div>
+        <label for="title">Book Title</label>
+        <input type="text" id="title" />
+      </div>
+      <div>
+        <label for="author">Book Author</label>
+        <input type="text" id="author" />
+      </div>
+      <div>
+        <label for="year">Published Year</label>
+        <input type="number" id="year" />
+      </div>
+      <button>Add Book</button>
+    </div>
+
+    <div class="table">
+      <div class="table-header">
+        <div>Title</div>
+        <div>Author</div>
+        <div>Year</div>
+      </div>
+
+      <div id="books">
+        <div class="book">
+          <div>Welcome to the new world</div>
+          <div>Lisan Al Gaib</div>
+          <div>2023</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
