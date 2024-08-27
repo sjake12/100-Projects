@@ -64,6 +64,7 @@
 .hero {
   height: 80vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
@@ -137,6 +138,7 @@
 
 .products__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -190,6 +192,7 @@
 /* Why Us START */
 .why-us {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin-top: 160px;
@@ -273,6 +276,7 @@
 /* Best Features START */
 .best {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin-top: 160px;
@@ -319,6 +323,7 @@
   background: var(--primary-color);
   color: #fff;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin-top: 160px;
