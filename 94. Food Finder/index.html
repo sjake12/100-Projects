@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal Finder</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <form class="input-container">
+        <input type="text" class="input" placeholder="Search..." />
+        <i class="fa-solid fa-magnifying-glass magnifier"></i>
+      </form>
+
+      <ul>
+        <li>Breakfast</li>
+        <li>Lunch</li>
+        <li>Dinner</li>
+      </ul>
+    </nav>
+
+    <main class="content">
+      <div class="content__container">
+        <div class="content__image"></div>
+
+        <div class="content__info">
+          <h1 class="food-name">Food Name</h1>
+          <p class="food-info">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
+            laborum quod et. Quidem excepturi neque voluptate saepe.
+          </p>
+
+          <button class="btn">$20 - Order Now</button>
+        </div>
+      </div>
+    </main>
+
+    <section class="ingredients"></section>
+    <script src="script.js"></script>
+  </body>
+</html>
